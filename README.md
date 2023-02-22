@@ -24,7 +24,8 @@ percent of the population living in urban areas
 5) Urbanpopulation percentage has weak positive correlation with the rate of arrests for assault.
 6) Urbanpopulation percentage has almost no correlation with the rate of arrests for murder.This analysis concludes that the USArrests dataset can be meaningfully split into two dimensions/clusters showing the cities with higher and lower number of arrests per capita
 
-## Interpretation 2: From pca explained variance rations, we can deduce that two components explain over 85% of variance (0.62 + 0.24 = 0.86). And the other two components have relatively lower contribution to the variance within our data. However, lets use a graph to visually identify the number of components required
+## Interpretation 2: From pca explained variance ratios - 
+we can deduce that two components explain over 85% of variance (0.62 + 0.24 = 0.86). And the other two components have relatively lower contribution to the variance within our data. However, lets use a graph to visually identify the number of components required
 
 ## Interpretation 3: From the biplot - 
 Each point on a biplot is the projected observation, transformed from the original data. The importance of each feature is indicated by the length of the arrows on the biplot. This corresponds to the magnitude of the values in the eigenvectors. From this biplot, we see that Assault and UrbanPop are the most important features as the arrows to each of these dominate the biplot.
@@ -39,10 +40,11 @@ Principal Component 2 is calculated predominantly from the population (coefficie
 These two graphs show that the Arrests per capita can be divided into two clusters, one where all the states with higher number of arrests per capita (green color dendogram) vs the other cluster where the arrests per capita is lower (orange color dendogram)
 
 
-## Interpretation 6: The K-means scatter plot shows that the clustering splits well the dataset along Principal Component 1 (total arrests per capita) and that the urban population (Prinicipal Component 2) is similar along the top level clusters.
+## Interpretation 6: The K-means scatter plot - 
+shows that the clustering splits well the dataset along Principal Component 1 (total arrests per capita) and that the urban population (Prinicipal Component 2) is similar along the top level clusters.
 
 ## CONCLUSION:
 
-##### The analysis splits the dataset into two clusters:
-##### Cluster 1 (Aqua color) - lower total arrests per capita and can be regarded as High-risk States.
-##### Cluster 2 (violet color) - higher total arrests per capita  and can be regarded as High-risk States.
+### The analysis splits the dataset into two clusters:
+### Cluster 1 (Aqua color) - lower total arrests per capita and can be regarded as High-risk States.
+### Cluster 2 (violet color) - higher total arrests per capita  and can be regarded as High-risk States.
